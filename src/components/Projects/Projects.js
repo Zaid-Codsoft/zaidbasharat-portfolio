@@ -9,6 +9,8 @@ import chatify from "../../Assets/Projects/bazzar.png";
 import suicide from "../../Assets/Projects/digi.png";
 import bitsOfCode from "../../Assets/Projects/restaurant.png";
 import gym from "../../Assets/Projects/fit-gym-club.png";
+import travel from "../../Assets/Projects/travel-mock.png";
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -92,9 +94,19 @@ function Projects() {
               imgPath={gym}
               isBlog={false}
               title="Fit Gym Club"
-              description="I create advanced websites with a robust tech stack: HTML, CSS, JavaScript, Node.js, and React. HTML lays a solid foundation for content, while CSS crafts responsive, sleek designs. JavaScript and React drive interactivity, delivering dynamic components like live trackers or smooth UI updates. Node.js powers the backend with efficient, scalable APIs. Together, they ensure fast, modern, and user-friendly sites built for performance!"
+              description="I create advanced websites with a robust tech stack: HTML, CSS, JavaScript, Node.js, and React. HTML lays a solid foundation for content, while CSS crafts responsive, sleek designs. JavaScript and React drive interactivity, delivering dynamic components like live trackers or smooth UI updates. Node.js powers the backend with efficient, scalable APIs. Together, they ensure fast, modern, and user-friendly sites built for performance!."
               ghLink="https://github.com/Zaid-Codsoft/fit-gym-club"
               demoLink="https://fit-gym-club.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={travel}
+              isBlog={false}
+              title="Travel Agency"
+              description="A modern travel agency website built with React and Bootstrap, featuring winter adventures in Pakistan. The responsive site showcases tour packages, team profiles, and destination details. With an elegant UI, users can explore travel options, view stunning winter landscapes, and easily contact the agency through multiple channels."
+              ghLink="https://github.com/Zaid-Codsoft/travel-agency"
+              demoLink="https://travel-agency-trip.netlify.app/"
             />
           </Col>
         </Row>
