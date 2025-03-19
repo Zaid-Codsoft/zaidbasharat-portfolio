@@ -8,7 +8,7 @@ import editor from "../../Assets/Projects/weather.png";
 import chatify from "../../Assets/Projects/bazzar.png";
 import suicide from "../../Assets/Projects/digi.png";
 import bitsOfCode from "../../Assets/Projects/restaurant.png";
-
+import gym from "../../Assets/Projects/fit-gym-club.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -84,6 +84,17 @@ function Projects() {
               description="A dynamic and interactive portfolio website built with React.js, showcasing my professional journey and technical expertise. Features a modern UI with smooth transitions, responsive design, and sections for projects, skills, and experience. Implemented with React components, hooks, and modern JavaScript practices. The site demonstrates clean code architecture, optimal performance, and seamless user experience across all devices."
               ghLink="https://github.com/Zaid-Codsoft/zaidbasharat-portfolio"
               demoLink="https://zaidbasharat-portfolio.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gym}
+              isBlog={false}
+              title="Fit Gym Club"
+              description="I create advanced websites with a robust tech stack: HTML, CSS, JavaScript, Node.js, and React. HTML lays a solid foundation for content, while CSS crafts responsive, sleek designs. JavaScript and React drive interactivity, delivering dynamic components like live trackers or smooth UI updates. Node.js powers the backend with efficient, scalable APIs. Together, they ensure fast, modern, and user-friendly sites built for performance!"
+              ghLink="https://github.com/Zaid-Codsoft/fit-gym-club"
+              demoLink="https://fit-gym-club.netlify.app/"
             />
           </Col>
         </Row>
