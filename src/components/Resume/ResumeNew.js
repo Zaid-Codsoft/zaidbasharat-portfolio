@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import Particle from "../Particle";
 import automationCV from "../../Assets/Automation-CV.pdf";
 import fullstackCV from "../../Assets/Full-stack-CV.pdf";
-import { AiOutlineDownload, AiOutlineFileText, AiOutlineEye } from "react-icons/ai";
+import { AiOutlineDownload, AiOutlineEye } from "react-icons/ai";
 
 function ResumeNew() {
   const [selectedCV, setSelectedCV] = useState(automationCV);
