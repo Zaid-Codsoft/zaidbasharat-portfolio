@@ -28,6 +28,14 @@ function Home() {
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
+              
+              <div style={{ padding: 20, textAlign: "left" }}>
+                <p style={{ color: "rgb(155 126 172)", fontSize: "1.1em" }}>
+                  <strong>🤖 AI Automation Engineer & Workflow Specialist</strong>
+                  <br />
+                  Transforming businesses through intelligent automation, NLP, AI Agents, and custom workflow solutions
+                </p>
+              </div>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>

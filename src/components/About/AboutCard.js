@@ -15,10 +15,9 @@ function AboutCard() {
             where I'm honing my skills in various aspects of software development.
             <br />
             <br />
-            As a passionate software developer, I've had the opportunity to work on
+            As a passionate <span className="purple">AI Automation Engineer</span>, I've had the opportunity to work on
             diverse projects through freelancing and outsourcing platforms. My journey
-            in software development has been driven by a desire to create impactful
-            solutions that solve real-world problems.
+            in AI automation has been driven by a desire to create intelligent solutions that transform business processes.
             <br />
             <br />
             <span className="purple">Technical Skills:</span>
@@ -28,6 +27,8 @@ function AboutCard() {
             • C++ for Data Structures and Algorithms
             <br />
             • JavaScript (ES6+) for Web Development
+            <br />
+            • Python for AI/ML and Data Science
             <br />
             <br />
             <span className="purple">Frontend Development:</span>
@@ -57,11 +58,37 @@ function AboutCard() {
             • MongoDB for NoSQL Solutions
             <br />
             <br />
+            <span className="purple">AI & Machine Learning:</span>
+            <br />
+            • Natural Language Processing (NLP) with spaCy, NLTK, and Transformers
+            <br />
+            • Large Language Models (LLMs) integration and fine-tuning
+            <br />
+            • AI Agent development using LangChain and AutoGen
+            <br />
+            • Custom AI model training and deployment
+            <br />
+            • Chatbot development with conversational AI
+            <br />
+            <br />
+            <span className="purple">Custom Software & Workflow Tools:</span>
+            <br />
+            • Enterprise workflow automation systems
+            <br />
+            • Custom business process management tools
+            <br />
+            • API integration and middleware development
+            <br />
+            • Workflow orchestration and task automation
+            <br />
+            <br />
             <span className="purple">Full Stack Expertise:</span>
             <br />
             • MERN Stack Development (MongoDB, Express, React, Node)
             <br />
             • WordPress Development and Customization
+            <br />
+            • AI-powered web applications and intelligent systems
             <br />
             <br />
             <span className="purple">Professional Experience:</span>
@@ -72,6 +99,8 @@ function AboutCard() {
             <br />
             • Developed scalable software solutions
             <br />
+            • Built AI-powered chatbots and workflow automation tools
+            <br />
             • Participated in various hackathons and coding competitions
             <br />
             <br />
@@ -79,7 +108,13 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Building Software Solutions
+              <ImPointRight /> Building AI-Powered Automation Solutions
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Developing Intelligent Workflow Systems
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Creating AI Agents & Chatbots
             </li>
             <li className="about-activity">
               <ImPointRight /> Freelance Development
@@ -96,7 +131,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Striving to create innovative solutions that make a difference!"{" "}
+            "Striving to create innovative AI automation solutions that transform businesses!"{" "}
           </p>
           <footer className="blockquote-footer">Zaid</footer>
         </blockquote>

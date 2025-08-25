@@ -22,25 +22,25 @@ function Home2() {
               and since then, I've been constantly growing and learning
               <br />
               <br />
-              I specialize in modern web technologies like{" "}
+              I am an <span className="purple">AI Automation Engineer</span> specializing in{" "}
               <i>
                 <b className="purple">
-                  React.js, Node.js, and the MERN Stack
+                  intelligent workflow automation, AI agents, and business process optimization
                 </b>
               </i>
               <br />
               <br />
               My areas of expertise include{" "}
               <i>
-                <b className="purple">Full Stack Development</b> with a focus on{" "}
+                <b className="purple">AI-Powered Automation</b> with a focus on{" "}
                 <b className="purple">
-                  Web Applications and Mobile Development
+                  Workflow Orchestration and Intelligent Business Solutions
                 </b>
               </i>
               <br />
               <br />
               I love building projects using{" "}
-              <b className="purple">JavaScript</b> and its modern frameworks, along with{" "}
+              <b className="purple">Python and JavaScript</b> for AI/ML applications, along with{" "}
               <i>
                 <b className="purple">
                   the complete MERN Stack for full-stack applications
@@ -50,6 +50,30 @@ function Home2() {
               <i>
                 <b className="purple">WordPress Development and Database Management</b>
               </i>
+              <br />
+              <br />
+              <span className="purple">AI & Machine Learning Expertise:</span>
+              <br />
+              I'm passionate about{" "}
+              <i>
+                <b className="purple">
+                  Natural Language Processing (NLP), AI Agents, and Intelligent Automation Systems
+                </b>
+              </i>
+              . I develop{" "}
+              <b className="purple">custom chatbots</b> and{" "}
+              <b className="purple">AI-powered workflow tools</b> that streamline business processes.
+              <br />
+              <br />
+              My expertise includes{" "}
+              <i>
+                <b className="purple">
+                  Large Language Model integration, custom AI model training, and conversational AI development
+                </b>
+              </i>
+              . I create{" "}
+              <b className="purple">enterprise workflow automation systems</b> and{" "}
+              <b className="purple">intelligent business process management tools</b>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -87,7 +111,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/zaid-basharat-76505629b/"
+                  href="https://www.linkedin.com/in/zaid-b-76505629b/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

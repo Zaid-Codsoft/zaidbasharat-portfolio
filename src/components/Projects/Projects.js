@@ -10,7 +10,11 @@ import suicide from "../../Assets/Projects/digi.png";
 import bitsOfCode from "../../Assets/Projects/restaurant.png";
 import gym from "../../Assets/Projects/fit-gym-club.png";
 import travel from "../../Assets/Projects/travel-mock.png";
-
+import lead from "../../Assets/Projects/lead.jpeg";
+import reviu from "../../Assets/Projects/reviu.png";
+import imobile from "../../Assets/Projects/imobile.png";
+import voice from "../../Assets/Projects/voice.png";
+import quran from "../../Assets/Projects/quran.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -107,6 +111,56 @@ function Projects() {
               description="A modern travel agency website built with React and Bootstrap, featuring winter adventures in Pakistan. The responsive site showcases tour packages, team profiles, and destination details. With an elegant UI, users can explore travel options, view stunning winter landscapes, and easily contact the agency through multiple channels."
               ghLink="https://github.com/Zaid-Codsoft/travel-agency"
               demoLink="https://travel-agency-trip.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={lead}
+              isBlog={false}
+              title="AI-Powered Lead Generation & Email Automation – Reviu.pk"
+              description="Built an AI-driven system integrating data sources for lead generation, with automated email and social media workflows. Used AI models for content personalization and seamless integrations to streamline outreach, boost acquisition, and save manual effort."
+              ghLink="https://github.com/Zaid-Codsoft/Reviu-Campagin-Automation"
+              // demoLink="https://travel-agency-trip.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={reviu}
+              isBlog={false}
+              title="Bussiness Review Platform – Reviu.pk"
+              description="Developed using Node.js, React/Vue, Prisma ORM, and PostgreSQL, deployed on Vercel and Railway. Built an AI-driven system that integrates multiple data sources for lead generation, with automated workflows for emails, social media content, and custom chatbots. Leveraged AI models for text generation, personalization, and voice assistant integration, streamlining outreach and improving scalability while reducing manual effort."
+              ghLink="https://github.com/Zaid-Codsoft/Reviu-Campagin-Automation"
+               demoLink="https://www.reviu.pk/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={imobile}
+              isBlog={false}
+              title="iMobile"
+              description="Built using Laravel, MySQL, and Vue.js, with deployment on cloud-based infrastructure. Developed an AI-powered price detection system using web scraping and automation workflows to monitor competitor pricing and market trends in real time. Integrated alerts, data pipelines, and reporting dashboards, enabling faster decision-making and reducing manual monitoring efforts."
+              // ghLink="https://github.com/Zaid-Codsoft/Reviu-Campagin-Automation"
+               demoLink="https://www.imobile.co.uk/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={voice}
+              isBlog={false}
+              title="Voice Assistant - Reviu.pk"
+              description="Built using Node.js, Express.js, and MongoDB, deployed on Vercel. Developed a voice assistant application that uses OpenAI's API to generate responses based on user queries. Implemented a RESTful API for seamless integration with frontend applications and a MongoDB database for storing user interactions and preferences."
+              ghLink="https://github.com/Zaid-Codsoft/Voice-Assistant"
+              demoLink="https://www.reviu.pk/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={quran}
+              isBlog={false}
+              title="Quran Website"
+              description="Developed a WordPress website providing Quranic content with custom themes and plugins, optimized for SEO, performance, and accessibility. Integrated ACF (Advanced Custom Fields) for flexible content management, ensuring a smooth user experience across devices."
+              // ghLink="https://github.com/Zaid-Codsoft/Voice-Assistant"
+              demoLink="https://www.equranglobal.com/"
             />
           </Col>
         </Row>

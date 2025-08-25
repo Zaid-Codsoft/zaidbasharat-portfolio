@@ -770,3 +770,231 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* AI Expertise Component Styling */
+.expertise-card {
+  background: var(--card-bg);
+  border: 1px solid var(--imp-text-color);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  height: 100%;
+  min-height: 300px;
+}
+
+.expertise-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(100, 255, 218, 0.2);
+  border-color: var(--accent-color);
+}
+
+.expertise-icon {
+  text-align: center;
+  font-size: 3em;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+}
+
+.expertise-card h4 {
+  color: var(--text-primary);
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.expertise-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.expertise-card ul li {
+  color: var(--text-secondary);
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(100, 255, 218, 0.1);
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.expertise-card ul li:last-child {
+  border-bottom: none;
+}
+
+.expertise-card ul li:before {
+  content: "▸";
+  color: var(--accent-color);
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+/* Responsive adjustments for expertise cards */
+@media (max-width: 768px) {
+  .expertise-card {
+    margin: 10px 5px;
+    min-height: 250px;
+  }
+  
+  .expertise-icon {
+    font-size: 2.5em;
+  }
+  
+  .expertise-card h4 {
+    font-size: 1.1em;
+  }
+  
+  .expertise-card ul li {
+    font-size: 0.85em;
+  }
+}
+
+/* CV Selection Cards Styling */
+.cv-option-card {
+  background: var(--card-bg);
+  border: 2px solid var(--imp-text-color);
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  height: 100%;
+  min-height: 150px;
+}
+
+.cv-option-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(100, 255, 218, 0.15);
+  border-color: var(--accent-color);
+}
+
+.cv-option-card.selected {
+  border-color: var(--accent-color);
+  background: rgba(100, 255, 218, 0.05);
+  box-shadow: 0 0 20px rgba(100, 255, 218, 0.2);
+}
+
+.cv-option-card h5 {
+  color: var(--text-primary);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.cv-option-card p {
+  color: var(--text-secondary);
+  margin-bottom: 0;
+}
+
+/* Responsive adjustments for CV cards */
+@media (max-width: 768px) {
+  .cv-option-card {
+    margin: 10px 5px;
+    min-height: 120px;
+  }
+  
+  .cv-option-card h5 {
+    font-size: 1em;
+  }
+  
+  .cv-option-card p {
+    font-size: 0.8em;
+  }
+}
+
+/* CV Preview Card Styling */
+.cv-preview-card {
+  background: var(--card-bg);
+  border: 2px solid var(--imp-text-color);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 25px rgba(100, 255, 218, 0.1);
+}
+
+.cv-preview-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 35px rgba(100, 255, 218, 0.15);
+  border-color: var(--accent-color);
+}
+
+.cv-preview-card .card-body {
+  background: linear-gradient(135deg, rgba(100, 255, 218, 0.05) 0%, rgba(100, 255, 218, 0.02) 100%);
+}
+
+/* Enhanced CV Option Cards */
+.cv-option-card {
+  background: var(--card-bg);
+  border: 2px solid var(--imp-text-color);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  height: 100%;
+  min-height: 280px;
+  box-shadow: 0 6px 20px rgba(100, 255, 218, 0.08);
+}
+
+.cv-option-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(100, 255, 218, 0.15);
+  border-color: var(--accent-color);
+}
+
+.cv-option-card.selected {
+  border-color: var(--accent-color);
+  background: linear-gradient(135deg, rgba(100, 255, 218, 0.08) 0%, rgba(100, 255, 218, 0.03) 100%);
+  box-shadow: 0 0 30px rgba(100, 255, 218, 0.2);
+}
+
+.cv-option-card h4 {
+  color: var(--text-primary);
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.cv-option-card p {
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.cv-option-card h6 {
+  color: var(--accent-color);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.cv-option-card ul li {
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+.cv-option-card ul li:before {
+  content: "▸";
+  color: var(--accent-color);
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+/* Responsive adjustments for enhanced CV cards */
+@media (max-width: 768px) {
+  .cv-option-card {
+    margin: 10px 5px;
+    min-height: 250px;
+  }
+  
+  .cv-preview-card {
+    margin: 10px 5px;
+  }
+  
+  .cv-option-card h4 {
+    font-size: 1.2em;
+  }
+  
+  .cv-option-card p {
+    font-size: 0.9em;
+  }
+  
+  .cv-option-card ul li {
+    font-size: 0.85em;
+  }
+}
